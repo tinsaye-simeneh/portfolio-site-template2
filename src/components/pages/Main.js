@@ -21,17 +21,17 @@ let Main = () => {
             </div>
           </div>
           <div className="row">
-            <div className="col-3 mx-auto bg-orange py-3  text-center">
+            <div className="col-3 mx-auto bg-orange py-3 text-center">
                 <img src={Resume} alt="reusme" />
             </div>
           </div>
           <div className="row">
-            <div className="col-3 mx-auto bg-orange py-3  text-center">
+            <div className="col-3 mx-auto bg-orange py-3 text-center">
               <img src={Portoflio} alt="Portfolio" />
             </div>
           </div>
           <div className="row">
-            <div className="col-3 mx-auto bg-orange py-3 pb-4  text-center">
+            <div className="col-3 mx-auto bg-orange py-3 pb-4 text-center">
               <img src={ContactIcon} alt="Contact" />
             </div>
           </div>
@@ -61,10 +61,10 @@ let Main = () => {
       </div>
     </div>
 
-    <div className="bg-warning justify-content-end pb-1 text-decoration-underline text-orange" style={{fontSize: '2rem'}}>
+    <div className="bg-black text-center pb-1 text-decoration-underline text-orange" style={{fontSize: '2rem'}}>
         RJ
         </div>
-        
+
         </>
   );
 };
