@@ -10,7 +10,7 @@ let Main = () => {
     >
       <div className="row py-5 mx-auto bg-black w-100">
         <div className="col-3 mt-5 pt-5">
-          <div className="row mt-4">
+          <div className="row mt-5">
             <div className="col-3 mx-auto bg-warning">
               <h1 className="text-white">1</h1>
             </div>
