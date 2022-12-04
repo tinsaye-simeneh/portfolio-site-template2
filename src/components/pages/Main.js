@@ -15,31 +15,23 @@ let Main = () => {
       <div className="row py-5 mx-auto bg-black w-100">
         <div className="col-3 mt-5 pt-5">
           <div className="row mt-5">
-            <div className="col-3 mx-auto bg-orange pt-3">
-              <h1 className="text-white">
+            <div className="col-3 mx-auto bg-orange py-3 pt-4 text-center">
               <img src={HomeIcon} alt="home" />
-              </h1>
             </div>
           </div>
           <div className="row">
-            <div className="col-3 mx-auto bg-orange pt-3">
-              <h1 className="text-white">
+            <div className="col-3 mx-auto bg-orange py-3  text-center">
                 <img src={Resume} alt="reusme" />
-              </h1>
             </div>
           </div>
           <div className="row">
-            <div className="col-3 mx-auto bg-orange pt-3">
-              <h1 className="text-white">
+            <div className="col-3 mx-auto bg-orange py-3  text-center">
               <img src={Portoflio} alt="Portfolio" />
-              </h1>
             </div>
           </div>
           <div className="row">
-            <div className="col-3 mx-auto bg-orange py-3">
-              <h1 className="text-white">
+            <div className="col-3 mx-auto bg-orange py-3 pb-4  text-center">
               <img src={ContactIcon} alt="Contact" />
-              </h1>
             </div>
           </div>
         </div>
