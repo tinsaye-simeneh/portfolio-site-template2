@@ -17,17 +17,34 @@ const Contact = () => {
           >
             Contact Us
             <div className="row mt-3">
-                <input type="text" className="form-control mt-3" placeholder="Name"/>
+              <input
+                type="text"
+                className="form-control mt-3"
+                placeholder="Name"
+              />
             </div>
             <div className="row mt-3">
-                <input type="email" className="form-control mt-3" placeholder="Email"/>
+              <input
+                type="email"
+                className="form-control mt-3"
+                placeholder="Email"
+              />
             </div>
             <div className="row mt-3">
-                <textarea className="form-control mt-3" placeholder="Message"></textarea>
+              <textarea
+                className="form-control mt-3"
+                placeholder="Message"
+              ></textarea>
             </div>
             <div className="row mt-4">
-                <a className="btn-orange text-center text-white p-1 rounded border-none" style={{fontSize:
-                '1.2rem'}}>Send</a>
+              <a
+                type="submit"
+                className="text-decoration-none btn-orange text-center text-white p-1 rounded border-none"
+                href="#"
+                style={{ fontSize: "1.2rem" }}
+              >
+                Send
+              </a>
             </div>
           </div>
         </div>
