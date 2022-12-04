@@ -8,9 +8,10 @@ import Portoflio from '../../assets/Images/portfolio.png';
 
 let Main = () => {
   return (
+    <>
     <div
       className="container-fluid bg-black py-5"
-      style={{ height: "41.45rem" }}
+      style={{ height: "38.2rem" }}
     >
       <div className="row py-5 mx-auto bg-black w-100">
         <div className="col-3 mt-3 pt-5">
@@ -59,6 +60,12 @@ let Main = () => {
         </div>
       </div>
     </div>
+
+    <div className="bg-warning justify-content-end pb-1 text-decoration-underline text-orange" style={{fontSize: '2rem'}}>
+        RJ
+        </div>
+        
+        </>
   );
 };
 
