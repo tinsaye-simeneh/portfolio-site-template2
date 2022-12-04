@@ -4,7 +4,7 @@ import Main from './components/page/Home'
 
 const App = () => {
   <>
-  <Home/>
+  <Main/>
   </>
 }
 
