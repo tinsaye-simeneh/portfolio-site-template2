@@ -20,7 +20,10 @@ const Contact = () => {
                 <input type="text" className="form-control mt-3" placeholder="Name"/>
             </div>
             <div className="row mt-3">
-                <input type="text" className="form-control mt-3" placeholder="Name"/>
+                <input type="email" className="form-control mt-3" placeholder="Email"/>
+            </div>
+            <div className="row mt-3">
+                <textarea className="form-control mt-3" placeholder="Message"></textarea>
             </div>
           </div>
         </div>

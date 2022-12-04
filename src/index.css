@@ -7,3 +7,9 @@
 .text-orange{
     color: #FF8800;
 }
+textarea{
+    width: 100%;
+    max-height: 150px;
+    resize: none;
+}
+ 
