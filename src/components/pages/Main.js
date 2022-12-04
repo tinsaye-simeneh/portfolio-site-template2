@@ -40,13 +40,6 @@ let Main = () => {
           </div>
         </div>
       </div>
-
-      <div
-        className="bg-black text-center pb-1 text-decoration-underline text-orange"
-        style={{ fontSize: "2rem" }}
-      >
-        RJ
-      </div>
     </>
   );
 };
