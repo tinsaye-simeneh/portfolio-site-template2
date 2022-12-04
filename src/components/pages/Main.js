@@ -1,5 +1,6 @@
 import React from "react";
 import "../../index.css";
+import Profile from "../../assets/Images/profile.png";
 
 let Main = () => {
   return (
@@ -27,8 +28,8 @@ let Main = () => {
             </div>
           </div>
         </div>
-        <div className="col-4 bg-secondary">
-          <p className="text-center text-white">Second Column</p>
+        <div className="col-3 bg-secondary border rounded">
+            <img src="https://picsum.photos/200/300" alt="random" className="img-fluid"/>
         </div>
         <div className="col-5 bg-dark">
           <p className="text-center text-white">third Column</p>
