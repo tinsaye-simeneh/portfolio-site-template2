@@ -1,11 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import Main from './components/page/Main'
+import Main from './components/pages/Main';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
-const App = () => {
-  <>
+function App(){
+  return(
   <Main/>
-  </>
+  )
 }
 
 const root = ReactDOM.createRoot(document.getElementById('root'));

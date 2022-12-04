@@ -1,9 +1,9 @@
 import React from 'react'
 
-const Main = ()=>{
+let Main = () => {
     return (
-        <div>
-        <h1>portfolio</h1>
+        <div className='bg-primary'>
+        <h1 className='text-dark'>portfolio</h1>
         </div>
     )
 }
