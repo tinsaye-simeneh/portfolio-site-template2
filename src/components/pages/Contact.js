@@ -11,6 +11,9 @@ const Contact = () => {
       >
         <div className="row py-5 mx-auto bg-black w-100">
           <SIdeBar />
+          <div className="col-3 text-white">
+            Contact Us
+            </div>
         </div>
       </div>
     </>
