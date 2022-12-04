@@ -6,7 +6,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 function App(){
   return(
   <Main/>
-  )
+  )simp
 }
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
