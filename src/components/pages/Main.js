@@ -1,6 +1,10 @@
 import React from "react";
 import "../../index.css";
 import Profile from "../../assets/Images/profile.png";
+import HomeIcon from '../../assets/Images/home.png';
+import ContactIcon from '../../assets/Images/contact.png';
+import Resume from '../../assets/Images/resume.png';
+import Portoflio from '../../assets/Images/portfolio.png';
 
 let Main = () => {
   return (
@@ -11,23 +15,31 @@ let Main = () => {
       <div className="row py-5 mx-auto bg-black w-100">
         <div className="col-3 mt-5 pt-5">
           <div className="row mt-5">
-            <div className="col-3 mx-auto bg-orange">
-              <h1 className="text-white">1</h1>
+            <div className="col-3 mx-auto bg-orange pt-3">
+              <h1 className="text-white">
+              <img src={HomeIcon} alt="home" />
+              </h1>
             </div>
           </div>
           <div className="row">
-            <div className="col-3 mx-auto bg-orange">
-              <h1 className="text-white">1</h1>
+            <div className="col-3 mx-auto bg-orange pt-3">
+              <h1 className="text-white">
+                <img src={Resume} alt="reusme" />
+              </h1>
             </div>
           </div>
           <div className="row">
-            <div className="col-3 mx-auto bg-orange">
-              <h1 className="text-white">1</h1>
+            <div className="col-3 mx-auto bg-orange pt-3">
+              <h1 className="text-white">
+              <img src={Portoflio} alt="Portfolio" />
+              </h1>
             </div>
           </div>
           <div className="row">
-            <div className="col-3 mx-auto bg-orange">
-              <h1 className="text-white">1</h1>
+            <div className="col-3 mx-auto bg-orange py-3">
+              <h1 className="text-white">
+              <img src={ContactIcon} alt="Contact" />
+              </h1>
             </div>
           </div>
         </div>
