@@ -1,7 +1,7 @@
 import React from "react";
 import SIdeBar from "./SideBar";
 import "../../index.css";
-import p1 from '../../assets/Images/p1.jpg'
+import Cards from './Cards'
 
 const Resume = () => {
   return (
@@ -11,24 +11,12 @@ const Resume = () => {
 
         <div className="col-md-8 text-white" style={{ fontSize: "1.5rem" }}>
           <div className="row">
-            <span className="text-left mb-3">Portfolio</span>
+            <span className="text-center mb-3">Portfolio</span>
           </div>
-          <div className="row text-center">
-            <div className="col-md-6">
-              <div className="col-md-8 border rounded mt-3">
-                <img src={p1} alt="portoflio number 1" className="img-fluid"/>
-                sms.et
-              </div>
-              <div className="col-md-8 border rounded mt-5">
-              <img src={p1} alt="portoflio number 1" className="img-fluid"/>
-                sms.et
-              </div>
-            </div>
-            <div className="col-md-6">
-              <div className="col-md-8 border rounded mt-5">yes</div>
-              <div className="col-md-8 border rounded mt-5">yes</div>
-            </div>
-            
+          <div className="row text-center bg-warning mx-auto">
+            <Cards/>
+            <Cards/>
+            <Cards/>
           </div>
         </div>
       </div>
