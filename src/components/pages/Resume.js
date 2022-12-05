@@ -12,7 +12,30 @@ const Resume = () => {
           style={{ fontSize: "1.5rem" }}
         >
           Portfolio
+            <div className="row">
+                <div className="col-md-8 border rounded">
+                    yes
+                </div>
+                <div className="col-md-8 border rounded">
+                    yes
+                </div>
         </div>
+        </div>
+        <div
+          className="col-md-4 text-white text-center"
+          style={{ fontSize: "1.5rem" }}
+        >
+            <div className="row">
+                <div className="col-md-8 mx-auto border rounded">
+                    yes
+                </div>
+                <div className="col-md-8 mx-auto border rounded">
+                    yes
+                </div>
+        </div>
+        </div>
+        
+        
       </div>
     </div>
   );
