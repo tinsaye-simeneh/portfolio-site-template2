@@ -38,12 +38,14 @@ const Resume = () => {
               Education
               <div className="col-md-10 bg-white text-black mx-auto border rounded mt-5 pt-2">
                 <span className="d-block" style={{fontSize: '1rem', fontWeight:'bold'}}>ElectroMechanical Engineering</span>
+                <span className="d-block" style={{fontSize: '1rem', fontWeight:'bold'}}>AASTU</span>
                 <span className="d-block" style={{fontSize: '1rem'}}>Addis Ababa, Ethiopia </span>
                 <span style={{fontSize: '1rem'}}>May, 2020 - Present</span>
               </div>
               <div className="col-md-10 bg-white text-black mx-auto border rounded mt-5 pt-2">
-                <span className="d-block" style={{fontSize: '1rem', fontWeight:'bold'}}>UI/UX Designer and Frontend Developer</span>
-                <span className="d-block" style={{fontSize: '1rem'}}>Remote - Parttime </span>
+                <span className="d-block" style={{fontSize: '1rem', fontWeight:'bold'}}>ElectroMechanical Engineering</span>
+                <span className="d-block" style={{fontSize: '1rem', fontWeight:'bold'}}>AASTU</span>
+                <span className="d-block" style={{fontSize: '1rem'}}>Addis Ababa, Ethiopia </span>
                 <span style={{fontSize: '1rem'}}>May, 2020 - Present</span>
               </div>
             </div>
