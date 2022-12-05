@@ -11,6 +11,12 @@ const SIdeBar = ({marginTop}) => {
   return (
     <>
       <div className="row mt-0">
+      <div
+        className="bg-black text-center pb-1 text-decoration-underline text-orange"
+        style={{ fontSize: "2rem" }}
+      >
+        RJ
+      </div>
         <div className="col-3 mx-auto bg-orange py-3 pt-5 text-center">
           <img src={HomeIcon} alt="home" width={40} className="filter-white"/>
         </div>

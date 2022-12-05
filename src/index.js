@@ -8,12 +8,8 @@ import "bootstrap/dist/css/bootstrap.min.css";
 function App() {
   return (
     <>
+    <div className="pb-5 bg-black pt-1">  
       <Resume />
-      <div
-        className="bg-black text-center pb-1 text-decoration-underline text-orange"
-        style={{ fontSize: "2rem" }}
-      >
-        RJ
       </div>
     </>
   );

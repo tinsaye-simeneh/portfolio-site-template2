@@ -14,7 +14,7 @@ const Contact = () => {
         className="container-fluid bg-black py-5"
       >
         <div className="row py-5 mx-auto bg-black w-100">
-        <div className="col-3 mt-3 pt-5">
+        <div className="col-3 pt-3 ">
         <SIdeBar/>
         </div>
           <div
