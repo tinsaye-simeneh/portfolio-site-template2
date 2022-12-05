@@ -7,35 +7,27 @@ const Resume = () => {
     <div className="container-fluid py-5 bg-black">
       <div className="row py-5">
         <SIdeBar />
-        <div
-          className="col-md-3 text-white text-center"
-          style={{ fontSize: "1.5rem" }}
-        >
-          Portfolio
-            <div className="row">
-                <div className="col-md-8 border rounded">
-                    yes
-                </div>
-                <div className="col-md-8 border rounded">
-                    yes
-                </div>
+
+        <div className="col-md-8 text-white" style={{ fontSize: "1.5rem" }}>
+          <div className="row">
+            <span className="text-left">Portfolio</span>
+          </div>
+          <div className="row mt-3 text-center">
+            <div className="col-md-6">
+              <div className="col-md-8 border rounded mt-5">yes</div>
+              <div className="col-md-8 border rounded mt-5">yes</div>
+            </div>
+            <div className="col-md-6">
+              <div className="col-md-8 border rounded mt-5">yes</div>
+              <div className="col-md-8 border rounded mt-5">yes</div>
+            </div>
+          </div>
+          <div className="col-md-6">
+              <div className="col-md-8 border rounded mt-5">yes</div>
+              <div className="col-md-8 border rounded mt-5">yes</div>
+            </div>
+          </div>
         </div>
-        </div>
-        <div
-          className="col-md-4 text-white text-center"
-          style={{ fontSize: "1.5rem" }}
-        >
-            <div className="row">
-                <div className="col-md-8 mx-auto border rounded">
-                    yes
-                </div>
-                <div className="col-md-8 mx-auto border rounded">
-                    yes
-                </div>
-        </div>
-        </div>
-        
-        
       </div>
     </div>
   );
