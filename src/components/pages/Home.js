@@ -3,7 +3,7 @@ import "../../index.css";
 import Profile from "../../assets/Images/profile.png";
 import SideBar from "./SideBar";
 
-let Main = () => {
+const Home = () => {
   return (
     <>
       <div
@@ -42,4 +42,4 @@ let Main = () => {
   );
 };
 
-export default Main;
+export default Home;
