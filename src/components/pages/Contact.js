@@ -12,11 +12,11 @@ const Contact = () => {
         <div className="row py-5 mx-auto bg-black w-100">
           <SIdeBar />
           <div
-            className="col-3 text-white text-decoration-underline mt-3"
+            className="col-3 text-white text-center mt-2"
             style={{ fontSize: "1.5rem" }}
           >
             Contact Us
-            <div className="row mt-3">
+            <div className="row mt-4">
               <input
                 type="text"
                 className="form-control mt-3"
@@ -39,8 +39,8 @@ const Contact = () => {
             <div className="row mt-4">
               <a
                 type="submit"
-                className="text-decoration-none btn-orange text-center text-white p-1 rounded border-none"
-                href="#"
+                className="btn-orange text-center text-white p-1 mt-3 rounded border-none"
+                href="#Contact"
                 style={{ fontSize: "1.2rem" }}
               >
                 Send
