@@ -21,11 +21,15 @@ const Resume = () => {
               <div className="col-md-8 border rounded mt-5">yes</div>
               <div className="col-md-8 border rounded mt-5">yes</div>
             </div>
+          <div className="col-md-6">
+            <div className="col-md-8 border rounded mt-5">yes</div>
+            <div className="col-md-8 border rounded mt-5">yes</div>
           </div>
           <div className="col-md-6">
-              <div className="col-md-8 border rounded mt-5">yes</div>
-              <div className="col-md-8 border rounded mt-5">yes</div>
-            </div>
+            <div className="col-md-8 border rounded mt-5">yes</div>
+            <div className="col-md-8 border rounded mt-5">yes</div>
+          </div>
+          
           </div>
         </div>
       </div>
