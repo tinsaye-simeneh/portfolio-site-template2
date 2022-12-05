@@ -18,4 +18,9 @@ textarea{
     max-height: 150px;
     resize: none;
 }
- 
+.filter-black{
+    filter: invert(0%) sepia(0%) saturate(0%) hue-rotate(214deg) brightness(94%) contrast(105%);
+}
+.filter-white{
+    filter: invert(0%) sepia(0%) saturate(0%) hue-rotate(214deg) brightness(94%) contrast(105%);
+}
