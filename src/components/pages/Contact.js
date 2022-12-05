@@ -54,13 +54,16 @@ const Contact = () => {
           </div>
           <div className="col-3 bg-black ms-5 ps-5">
             <div className="row">
-            <div className="col-12 text-center text-white mt-2 ms-3" style={{fontSize:'1.5rem'}}>
+              <div
+                className="col-12 text-center text-white mt-2 ms-3"
+                style={{ fontSize: "1.5rem" }}
+              >
                 My Social Links
               </div>
             </div>
             <div className="row mt-4 pt-3">
               <div className="col-6 mx-auto">
-              <div className="row">
+                <div className="row">
                   <div className="col-md-6">
                     <img src={gh} alt="github" className="pb-4" />
                   </div>
