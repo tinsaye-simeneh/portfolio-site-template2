@@ -2,10 +2,10 @@ import React from "react";
 
 import "../../index.css";
 import Profile from "../../assets/Images/profile.png";
-import HomeIcon from "../../assets/Images/home.png";
-import ContactIcon from "../../assets/Images/contact.png";
-import Resume from "../../assets/Images/resume.png";
-import Portoflio from "../../assets/Images/portfolio.png";
+import HomeIcon from "../../assets/icons/home.png";
+import ContactIcon from "../../assets/icons/contact.png";
+import Resume from "../../assets/icons/resume.png";
+import Portoflio from "../../assets/icons/portfolio.png";
 
 const SIdeBar = () => {
   return (
