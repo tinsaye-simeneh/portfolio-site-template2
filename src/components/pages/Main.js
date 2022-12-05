@@ -1,7 +1,7 @@
 import React from "react";
 import "../../index.css";
 import Profile from "../../assets/Images/profile.png";
-import SideBar from './SideBar';
+import SideBar from "./SideBar";
 
 let Main = () => {
   return (
@@ -11,7 +11,9 @@ let Main = () => {
         style={{ height: "38.2rem" }}
       >
         <div className="row py-5 mx-auto bg-black w-100">
-            <SideBar/>
+          <div className="col-3 pt-3">
+            <SideBar />
+          </div>
           <div className="col-3 ms-3 border-none rounded">
             <img src={Profile} alt="random" className="img-fluid" />
           </div>

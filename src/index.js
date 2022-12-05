@@ -8,8 +8,8 @@ import "bootstrap/dist/css/bootstrap.min.css";
 function App() {
   return (
     <>
-    <div className="pb-5 bg-black pt-1">  
-      <Resume />
+      <div className="pb-5 bg-black pt-1">
+        <Main />
       </div>
     </>
   );

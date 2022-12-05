@@ -1,29 +1,31 @@
-.container-fluid{
-    height: 38.2rem;
+.container-fluid {
+  height: 38.2rem;
 }
-.bg-black{
-    background-color: #000000;
+.bg-black {
+  background-color: #000000;
 }
-.bg-orange{
-    background-color: #FF8800;
+.bg-orange {
+  background-color: #ff8800;
 }
-.btn-orange{
-    background-color: #FF8800;
-    color: #FFFFFF;
-    text-decoration: none;
+.btn-orange {
+  background-color: #ff8800;
+  color: #ffffff;
+  text-decoration: none;
 }
-.text-orange{
-    color: #FF8800;
+.text-orange {
+  color: #ff8800;
 }
-textarea{
-    width: 100%;
-    height: 150px;
-    max-height: 150px;
-    resize: none;
+textarea {
+  width: 100%;
+  height: 150px;
+  max-height: 150px;
+  resize: none;
 }
-.filter-black{
-    filter: invert(0%) sepia(0%) saturate(0%) hue-rotate(214deg) brightness(94%) contrast(105%);
+.filter-black {
+  filter: invert(0%) sepia(0%) saturate(0%) hue-rotate(214deg) brightness(94%)
+    contrast(105%);
 }
-.filter-white{
-    filter: invert(0%) sepia(0%) saturate(0%) hue-rotate(214deg) brightness(94%) contrast(105%);
+.filter-white {
+  filter: invert(0%) sepia(0%) saturate(0%) hue-rotate(214deg) brightness(94%)
+    contrast(105%);
 }
