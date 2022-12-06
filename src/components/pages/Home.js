@@ -1,7 +1,7 @@
 import React from "react";
-import "../../index.css";
+import "../../style/index.css";
 import Profile from "../../assets/Images/profile.png";
-import SideBar from "./SideBar";
+import SideBar from "../SideBar";
 
 const Home = () => {
   return (

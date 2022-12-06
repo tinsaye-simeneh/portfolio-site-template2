@@ -1,6 +1,6 @@
 import React from "react";
-import "../../index.css";
-import SIdeBar from "./SideBar";
+import "../../style/index.css";
+import SIdeBar from "../SideBar";
 import fb from "../../assets/icons/fb.svg";
 import ig from "../../assets/icons/ig.svg";
 import tw from "../../assets/icons/tw.svg";

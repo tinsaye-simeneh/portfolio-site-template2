@@ -1,5 +1,5 @@
 import React from "react";
-import "../../index.css";
+import "../style/index.css";
 import { Link } from "react-router-dom";
 
 const SIdeBar = ({Home, Resume, Portfolio, Contact}) => {

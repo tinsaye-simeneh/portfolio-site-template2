@@ -1,6 +1,6 @@
 import React from "react";
-import SIdeBar from "./SideBar";
-import "../../index.css";
+import SIdeBar from "../SideBar";
+import "../../style/index.css";
 
 const Resume = () => {
   return (

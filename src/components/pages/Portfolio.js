@@ -1,7 +1,7 @@
 import React from "react";
-import SIdeBar from "./SideBar";
-import "../../index.css";
-import Cards from "./Cards";
+import SIdeBar from "../SideBar";
+import "../../style/index.css";
+import Cards from "../Cards";
 
 const Portfolio = () => {
   return (
