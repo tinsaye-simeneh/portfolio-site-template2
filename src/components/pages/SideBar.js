@@ -8,11 +8,7 @@ import Resume from "../../assets/icons/resume.svg";
 import Portoflio from "../../assets/icons/portfolio.svg";
 import { Outlet, Link } from "react-router-dom";
 
-function handleClick({Clicked}){
-  document.getElementById('active').style.borderBottomColor = "Blue";
-}
-
-const SIdeBar = ({ marginTop }) => {
+const SIdeBar = () => {
   return (
     <>
       <div className="row mt-0">
@@ -31,7 +27,7 @@ const SIdeBar = ({ marginTop }) => {
       <div className="row">
         <div className="col-3 mx-auto bg-orange py-4 text-center ">
         <Link to="/Resume">
-          <img src={Resume} alt="resume" width={40} onClick={handleClick()}/>
+          <img src={Resume} alt="resume" width={40}/>
           </Link>
         </div>
       </div>
