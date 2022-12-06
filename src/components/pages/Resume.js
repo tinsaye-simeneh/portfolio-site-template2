@@ -1,7 +1,6 @@
 import React from "react";
 import SIdeBar from "./SideBar";
 import "../../index.css";
-import Cards from "./Cards";
 
 const Resume = () => {
   return (
