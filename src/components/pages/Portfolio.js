@@ -8,7 +8,7 @@ const Portfolio = () => {
     <div className="container-fluid py-5 bg-black">
       <div className="row py-2">
         <div className="col-3 mt-2 pt-5">
-          <SIdeBar />
+          <SIdeBar Portfolio='active'/>
         </div>
 
         <div className="col-md-8 text-white" style={{ fontSize: "1.5rem" }}>

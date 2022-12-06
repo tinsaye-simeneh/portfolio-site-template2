@@ -13,7 +13,7 @@ const Contact = () => {
       <div className="container-fluid bg-black py-5">
         <div className="row py-5 mx-auto bg-black w-100">
           <div className="col-3 pt-3 ">
-            <SIdeBar />
+            <SIdeBar Contact='active'/>
           </div>
           <div
             className="col-4 text-white text-center mt-2"
