@@ -15,15 +15,15 @@
 .text-orange {
   color: #ff8800;
 }
-.active {
-  background:#dfe0e5;
-  overflow:hidden;
-  border-left:2px solid #00f;
-  padding:8px;
-  
-}
 svg{
-  fill: white
+  fill: black;
+}
+.active {
+  overflow:hidden;
+  padding:8px;
+  fill: white;
+  width: 3rem;
+  height: 3rem
 }
 textarea {
   width: 100%;
