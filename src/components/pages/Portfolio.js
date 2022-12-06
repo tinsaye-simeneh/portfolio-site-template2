@@ -7,7 +7,7 @@ const Portfolio = () => {
   return (
     <div className="container-fluid py-5 bg-black">
       <div className="row py-2">
-        <div className="col-3 mt-2 pt-5">
+        <div className="col-3 mt-2 ms-2 pt-5">
           <SIdeBar Portfolio='active'/>
         </div>
 

@@ -37,7 +37,7 @@ const SIdeBar = ({Home, Resume, Portfolio, Contact}) => {
               width="30"
               height="30"
               fill="currentColor"
-              class="bi bi-file-earmark-person-fill"
+              class="bi bi-file-earmark-person-fill mt-2"
               className={Resume}
               viewBox="0 0 16 16"
             >
@@ -54,7 +54,7 @@ const SIdeBar = ({Home, Resume, Portfolio, Contact}) => {
               width="30"
               height="30"
               fill="currentColor"
-              class="bi bi-person-workspace menu-icon"
+              class="bi bi-person-workspace"
               className={Portfolio}
               viewBox="0 0 16 16"
             >
@@ -65,7 +65,7 @@ const SIdeBar = ({Home, Resume, Portfolio, Contact}) => {
         </div>
       </div>
       <div className="row">
-        <div className="col-3 mx-auto bg-orange py-4 pb-5 text-center">
+        <div className="col-3 mx-auto bg-orange pt-3 pb-5 text-center">
           <Link to="/Contact">
             <svg
               xmlns="http://www.w3.org/2000/svg"
