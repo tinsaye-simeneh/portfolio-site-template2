@@ -12,7 +12,7 @@ const Home = () => {
       >
         <div className="row py-5 mx-auto bg-black w-100">
           <div className="col-3 pt-3">
-            <SideBar />
+            <SideBar Home="active"/>
           </div>
           <div className="col-3 ms-3 border-none rounded">
             <img src={Profile} alt="random" className="img-fluid" />
