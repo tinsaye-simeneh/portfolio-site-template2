@@ -7,7 +7,15 @@ import tw from "../../assets/icons/tw.svg";
 import li from "../../assets/icons/li.svg";
 import gh from "../../assets/icons/gh.svg";
 
+
 const Contact = () => {
+
+  function handleSubmit (e){
+    e.preventDefault();
+    window.location.href('/Home');
+  }
+  
+
   return (
     <>
       <div className="container-fluid bg-black py-5">
@@ -15,10 +23,12 @@ const Contact = () => {
           <div className="col-3 pt-3 ">
             <SIdeBar Contact='active'/>
           </div>
+          
           <div
             className="col-4 text-white text-center mt-2"
             style={{ fontSize: "1.5rem" }}
           >
+            <form onSubmit={handleSubmit}>
             Contact Us
             <div className="row mt-4 px-5">
               <input
@@ -50,6 +60,7 @@ const Contact = () => {
                 Send
               </a>
             </div>
+            </form>
           </div>
           <div className="col-3 bg-black ms-5 ps-5">
             <div className="row">
