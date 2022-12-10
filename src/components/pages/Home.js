@@ -19,7 +19,7 @@ const Home = () => {
           </div>
           <div className="col-5 bg-black pt-5 ms-5 mt-5">
             <h4 className="text-white mt-3">
-              Hi, I'm <span className="text-danger">Raul Josef</span>
+              Hi, I'm  <span className="text-danger">Raul Josef</span>
             </h4>
             <h5 className="text-white mt-3">
               Frontend Web Developer | UI/UX Designer
