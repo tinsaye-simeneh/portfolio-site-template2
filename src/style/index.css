@@ -48,6 +48,7 @@ textarea {
   object-fit: cover;
   margin-left: auto;
   margin-right: auto;
+  padding-top:3rem
 }
 .img-col:hover{
   filter: brightness(50%);
@@ -77,6 +78,9 @@ textarea {
   padding-top: 1rem;
   padding-bottom: 1rem;
 }
+.home-text{
+  padding-top: 10rem
+}
 
 @media (max-width: 768px) {
   .Page-Container {
@@ -100,5 +104,11 @@ textarea {
   }
   .sidebar-row{
     padding-top: 0;
+  }
+  .home-text{
+    padding-top: 3rem
+  }
+  .home-text h4, h5{
+    text-align: center
   }
 }

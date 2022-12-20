@@ -14,7 +14,7 @@ const Home = () => {
           <div className="col-md-3 col-12 img-col border-none rounded">
             <img src={Profile} alt="random" className="img-fluid" />
           </div>
-          <div className="col-md-5 col-12 bg-black pt-5 mt-5">
+          <div className="col-md-5 col-12 bg-black home-text">
             <h4 className="text-white mt-3">
               Hi, I'm <span className="text-danger">Raul Josef</span>
             </h4>
