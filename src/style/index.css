@@ -48,7 +48,7 @@ textarea {
   object-fit: cover;
   margin-left: auto;
   margin-right: auto;
-  padding-top:3rem
+  padding-top:1rem
 }
 .img-col:hover{
   filter: brightness(50%);
@@ -80,7 +80,7 @@ textarea {
   padding-bottom: 1rem;
 }
 .home-text{
-  padding-top: 10rem
+  padding-top: 8rem
 }
 .img-card:hover{
   filter: brightness(50%);

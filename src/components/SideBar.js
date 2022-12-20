@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 import { AiFillHome } from "react-icons/ai";
 import { AiFillFilePdf } from "react-icons/ai";
 import { MdContactPage } from "react-icons/md";
-import { GiGiftOfKnowledge } from "react-icons/gi";
+import { BsFillBagPlusFill } from "react-icons/bs";
 
 const SIdeBar = ({ Home, Resume, Portfolio, Contact }) => {
   return (
@@ -35,7 +35,7 @@ const SIdeBar = ({ Home, Resume, Portfolio, Contact }) => {
 
             <div className="col-md-12 col-3 mx-auto bg-orange sidebar-item text-center">
               <Link to="/Portfolio">
-                <GiGiftOfKnowledge size={30} className="Icons" class={Portfolio}/>
+                <BsFillBagPlusFill size={30} className="Icons" class={Portfolio}/>
               </Link>
             </div>
 
