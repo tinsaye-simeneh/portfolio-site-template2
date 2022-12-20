@@ -11,13 +11,13 @@ const Home = () => {
         style={{ height: "38.2rem" }}
       >
         <div className="row py-5 mx-auto bg-black w-100">
-          <div className="col-3 pt-3">
+          <div className="col-md-3 col-3 pt-3">
             <SideBar Home="active"/>
           </div>
-          <div className="col-3 ms-3 border-none rounded">
+          <div className="col-md-3 col-3 ms-3 border-none rounded">
             <img src={Profile} alt="random" className="img-fluid" />
           </div>
-          <div className="col-5 bg-black pt-5 ms-5 mt-5">
+          <div className="col-md-5 col-5 bg-black pt-5 ms-5 mt-5">
             <h4 className="text-white mt-3">
               Hi, I'm  <span className="text-danger">Raul Josef</span>
             </h4>
