@@ -64,6 +64,7 @@ textarea {
 }
 .Contact-Icon:hover{
   filter: brightness(50%);
+  cursor: pointer;
 }
 .Social-link-text:hover{
   color: #ff8800;
@@ -81,7 +82,10 @@ textarea {
 .home-text{
   padding-top: 10rem
 }
-
+.img-card:hover{
+  filter: brightness(50%);
+  cursor: pointer;
+}
 @media (max-width: 768px) {
   .Page-Container {
     flex-direction: row;

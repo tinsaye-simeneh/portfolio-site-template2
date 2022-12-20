@@ -1,10 +1,11 @@
 import React from "react";
 import p1 from "../assets/Images/p1.jpg";
+import '../style/index.css'
 
 const Cards = () => {
   return (
     <div className="col-md-4">
-      <div className="col-md-6 mx-auto border rounded mt-3">
+      <div className="col-md-6 mx-auto border rounded mt-3 img-card">
         <img src={p1} alt="portoflio number 1" className="img-fluid" />
         sms.et
       </div>
