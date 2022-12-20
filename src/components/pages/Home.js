@@ -7,8 +7,8 @@ const Home = () => {
   return (
     <>
       <div className="container-fluid py-5 Page-Container Home-Page-Container">
-        <div className="row py-5 mx-auto bg-black w-100">
-          <div className="col-md-3 col-12 mx-auto pt-3">
+        <div className="row pt-2 bg-black">
+          <div className="col-md-3 col-11 mx-auto mt-2">
             <SideBar Home="active" />
           </div>
           <div className="col-md-3 col-12 img-col border-none rounded">
