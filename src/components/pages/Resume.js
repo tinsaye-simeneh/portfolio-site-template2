@@ -2,9 +2,11 @@ import React from "react";
 import SIdeBar from "../SideBar";
 import "../../style/index.css";
 
+import { Education, Work } from "../ResumeData";
+
 const Resume = () => {
   return (
-    <div className="container-fluid py-5 bg-black">
+    <div className="container-fluid py-5 bg-black Page-Container">
       <div className="row py-2">
         <div className="col-3 mt-2 ms-2 pt-5">
           <SIdeBar Resume="active"/>
@@ -55,7 +57,7 @@ const Resume = () => {
                 <span style={{ fontSize: "1rem" }}>May, 2020 - Present</span>
               </div>
             </div>
-            <div className="col-md-6">
+            <div className="col-md-6 col-12 pt-5">
               Education
               <div className="col-md-10 bg-white text-black mx-auto border rounded mt-5 pt-2">
                 <span

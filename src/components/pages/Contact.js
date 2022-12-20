@@ -52,7 +52,7 @@ const Contact = () => {
         <div className="row">
         <div className="col-md-8 col-12 my-2 mx-auto">
         <span className="px-4">{icon.icon}</span>
-      <a href={icon.link} className="Social-link-text text-white text-decoration-none">
+      <a href={icon.link} className="text-white text-decoration-none">
        {icon.linkText}
       </a>
       </ div>
@@ -63,9 +63,9 @@ const Contact = () => {
 
   return (
     <>
-      <div className="container-fluid bg-black py-5 Page-Container">
+      <div className="container-fluid bg-black Page-Container">
         <div className="row py-5 mx-auto bg-black w-100">
-          <div className="col-md-3 col-12 pt-3 ">
+          <div className="col-md-3 col-11 mx-auto">
             <SIdeBar Contact="active" />
           </div>
 

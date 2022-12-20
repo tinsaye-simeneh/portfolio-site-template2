@@ -67,6 +67,16 @@ textarea {
 .Social-link-text:hover{
   color: #ff8800;
 }
+.Contact-Page-Container {
+  max-height: 18.2rem;
+}
+.sidebar-row{
+  padding-top: 3rem;
+}
+.sidebar-item{
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
 
 @media (max-width: 768px) {
   .Page-Container {
@@ -82,7 +92,13 @@ textarea {
   .Home-Page-Container {
     max-height: 180vh;
   }
+  .Contact-Page-Container {
+    max-height: 180vh;
+  }
   .img-col {
     padding-top: 3rem;
+  }
+  .sidebar-row{
+    padding-top: 0;
   }
 }
