@@ -9,16 +9,17 @@ const Resume = () => {
   const EducationData = Education.map((item, index) => {
     return (
       <div className="col-md-10 bg-white text-black mx-auto border rounded mt-5 pt-2">
-      <span
+       <span
         className="d-block"
         style={{ fontSize: "1rem", fontWeight: "bold" }}
       >
-        {item.title}
+        {item.title} -  {item.location}
       </span>
-      <span className="d-block" style={{ fontSize: "1rem" }}>
-        {item.location}
+      <span className="d-block" style={{ fontSize: "0.8rem" }}>
+       
       </span>
       <span style={{ fontSize: "1rem" }}>{item.date}</span>
+      <p style={{ fontSize: "0.8rem" }}> {item.description} </p>
     </div>
     );
   });
@@ -29,12 +30,13 @@ const Resume = () => {
         className="d-block"
         style={{ fontSize: "1rem", fontWeight: "bold" }}
       >
-        {item.title}
+        {item.title} -  {item.location}
       </span>
-      <span className="d-block" style={{ fontSize: "1rem" }}>
-        {item.location}
+      <span className="d-block" style={{ fontSize: "0.8rem" }}>
+       
       </span>
       <span style={{ fontSize: "1rem" }}>{item.date}</span>
+      <p style={{ fontSize: "0.8rem" }}> {item.description} </p>
     </div>
     );
   });
