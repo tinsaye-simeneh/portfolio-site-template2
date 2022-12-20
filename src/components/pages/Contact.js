@@ -78,31 +78,31 @@ const Contact = () => {
                   <div className="col-md-6">
                     <AiFillGithub/>
                   </div>
-                  <div className="col-md-6 pt-3 text-white">@RaulJosef</div>
+                  <div className="col-md-6 text-white">@RaulJosef</div>
                 </div>
                 <div className="row">
                   <div className="col-md-6">
                     <AiFillLinkedin/>
                   </div>
-                  <div className="col-md-6 pt-3 text-white">@RaulJosef</div>
+                  <div className="col-md-6 text-white">@RaulJosef</div>
                 </div>
                 <div className="row">
                   <div className="col-md-6">
                     <AiFillTwitterCircle/>
                   </div>
-                  <div className="col-md-6 pt-3 text-white">@RaulJosef</div>
+                  <div className="col-md-6 text-white">@RaulJosef</div>
                 </div>
                 <div className="row">
                   <div className="col-md-6">
                     <AiFillInstagram/>
                   </div>
-                  <div className="col-md-6 pt-3 text-white">@RaulJosef</div>
+                  <div className="col-md-6 text-white">@RaulJosef</div>
                 </div>
                 <div className="row">
                   <div className="col-md-6">
                     <AiFillFacebook/>
                   </div>
-                  <div className="col-md-6 pt-3 text-white">@RaulJosef</div>
+                  <div className="col-md-6 text-white">@RaulJosef</div>
                 </div>
               </div>
             </div>
