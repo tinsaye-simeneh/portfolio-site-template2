@@ -16,6 +16,9 @@ const Contact = () => {
     window.location.href('/Home');
   }
   
+  const [name, setName] = React.useState('');
+  const [email, setEmail] = React.useState('');
+  const [message, setMessage] = React.useState('');
 
   return (
     <>
@@ -36,6 +39,13 @@ const Contact = () => {
                 type="text"
                 className="form-control mt-3"
                 placeholder="Name"
+                onClick={() => {
+                  setName("");
+                }}
+                onChange={(e) => {
+                  setName(e.target.value);
+                }}
+                
               />
             </div>
             <div className="row mt-3 px-5">
@@ -43,12 +53,26 @@ const Contact = () => {
                 type="email"
                 className="form-control mt-3"
                 placeholder="Email"
+                onClick={() => {
+                  setEmail("");
+                }}
+                onChange={(e) => {
+                  setEmail(e.target.value);
+                }}
+
               />
             </div>
             <div className="row mt-3 px-5">
               <textarea
                 className="form-control mt-3"
                 placeholder="Message"
+                onClick={() => {
+                  setMessage("");
+                }}
+                onChange={(e) => {
+                  setMessage(e.target.value);
+                }}
+                
               ></textarea>
             </div>
             <div className="row mt-4 px-5">
