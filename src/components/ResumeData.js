@@ -5,8 +5,6 @@ export const Work = [
       date: "Month/Day/Year - Month/Day/Year",
       description: [
         "Write your job description here",
-        "Write your job description here",
-        "Write your job description here",
       ],
     },
     {
@@ -15,8 +13,6 @@ export const Work = [
       date: "Month/Day/Year - Month/Day/Year",
       description: [
         "Write your job description here",
-        "Write your job description here",
-        "Write your job description here",
       ],
     },
   {
@@ -24,8 +20,6 @@ export const Work = [
       location: "Location",
       date: "Month/Day/Year - Month/Day/Year",
       description: [
-        "Write your job description here",
-        "Write your job description here",
         "Write your job description here",
       ],
   }
@@ -38,8 +32,6 @@ export const Work = [
       date: "Month/Day/Year - Month/Day/Year",
       description: [
         "Write your job description here",
-        "Write your job description here",
-        "Write your job description here",
       ],
     },
     {
@@ -48,8 +40,6 @@ export const Work = [
       date: "Month/Day/Year - Month/Day/Year",
       description: [
         "Write your job description here",
-        "Write your job description here",
-        "Write your job description here",
       ],
     },
   {
@@ -57,8 +47,6 @@ export const Work = [
       location: "Location",
       date: "Month/Day/Year - Month/Day/Year",
       description: [
-        "Write your job description here",
-        "Write your job description here",
         "Write your job description here",
       ],
   }
