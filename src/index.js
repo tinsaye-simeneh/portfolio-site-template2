@@ -10,7 +10,7 @@ import { Routes, Route, BrowserRouter } from "react-router-dom";
 function App() {
   return (
     <>
-  <div className="pb-5 bg-black pt-1">   
+  <div className="pb-5 bg-black">   
       <BrowserRouter>
       <Routes>
           <Route path="Home" element={<Home />} />
