@@ -18,29 +18,33 @@ const SIdeBar = ({ Home, Resume, Portfolio, Contact }) => {
         </div>
       </div>
 
-      <div className="row bg-primary text-center">
+      <div className="row text-center">
         <div className="col-md-3 col-12 mx-auto bg-orange py-4 px-3 text-center">
           <div className="row">
-            <div className="col-md-12 col-3"> <div className="col-md-3 col-12 mx-auto bg-orange py-4 text-center">
-          <Link to="/Contact">
-            <MdContactPage size={30} />
-          </Link>
-        </div></div>
-            <div className="col-md-12 col-3"> <div className="col-md-3 col-12 mx-auto bg-orange py-4 text-center">
-          <Link to="/Contact">
-            <MdContactPage size={30} />
-          </Link>
-        </div></div>
-            <div className="col-md-12 col-3"> <div className="col-md-3 col-12 mx-auto bg-orange py-4 text-center">
-          <Link to="/Contact">
-            <MdContactPage size={30} />
-          </Link>
-        </div></div>
-            <div className="col-md-12 col-3"> <div className="col-md-3 col-12 mx-auto bg-orange py-4 text-center">
-          <Link to="/Contact">
-            <MdContactPage size={30} />
-          </Link>
-        </div></div>
+            <div className="col-md-12 col-3 mx-auto bg-orange py-4 text-center">
+              <Link to="/Home">
+                <AiFillHome size={30} className="Icons"/>
+              </Link>
+            </div>
+            
+            <div className="col-md-12 col-3 mx-auto bg-orange py-4 text-center">
+              <Link to="/Resume">
+                <AiFillFilePdf size={30} className="Icons"/>
+              </Link>
+            </div>
+
+            <div className="col-md-12 col-3 mx-auto bg-orange py-4 text-center">
+              <Link to="/Portfolio">
+                <GiGiftOfKnowledge size={30} className="Icons"/>
+              </Link>
+            </div>
+
+            <div className="col-md-12 col-3 mx-auto bg-orange py-4 text-center">
+              <Link to="/Contact">
+                <MdContactPage size={30} className="Icons"/>
+              </Link>
+            </div>
+
           </div>
         </div>
       </div>

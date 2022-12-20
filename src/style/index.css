@@ -15,18 +15,18 @@
 .text-orange {
   color: #ff8800;
 }
-svg{
-  fill: black;
+.Icons{
+  width: 3rem;
+  height: 3rem;
+  padding: 8px;
+  color: black;
 }
-.active {
+.Icons.active {
   overflow:hidden;
   padding:8px;
-  fill: white;
+  color: white;
   width: 3rem;
   height: 3rem
-}
-svg:hover{
-  fill: white;
 }
 textarea {
   width: 100%;
