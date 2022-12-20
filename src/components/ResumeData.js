@@ -2,7 +2,7 @@ export const Work = [
     {
       title: "Job Title",
       location: "Location",
-      date: "Month - Day, Year",
+      date: "Month/Day,/Year to Month/Day,/Year",
       description: [
         "Write your job description here",
         "Write your job description here",
@@ -12,7 +12,7 @@ export const Work = [
     {
       title: "Job Title",
       location: "Location",
-      date: "Month - Day, Year",
+      date: "Month/Day,/Year to Month/Day,/Year",
       description: [
         "Write your job description here",
         "Write your job description here",
@@ -22,7 +22,7 @@ export const Work = [
   {
     title: "Job Title",
       location: "Location",
-      date: "Month - Day, Year",
+      date: "Month/Day,/Year to Month/Day,/Year",
       description: [
         "Write your job description here",
         "Write your job description here",
@@ -33,9 +33,9 @@ export const Work = [
   
   export const Education = [
     {
-      title: "Job Title",
+      title: "Subject of Study",
       location: "Location",
-      date: "Month - Day, Year",
+      date: "Month/Day,/Year to Month/Day,/Year",
       description: [
         "Write your job description here",
         "Write your job description here",
@@ -43,9 +43,9 @@ export const Work = [
       ],
     },
     {
-      title: "Job Title",
+      title: "Subject of Study",
       location: "Location",
-      date: "Month - Day, Year",
+      date: "Month/Day,/Year to Month/Day,/Year",
       description: [
         "Write your job description here",
         "Write your job description here",
@@ -53,9 +53,9 @@ export const Work = [
       ],
     },
   {
-    title: "Job Title",
+    title: "Subject of Study",
       location: "Location",
-      date: "Month - Day, Year",
+      date: "Month/Day,/Year to Month/Day,/Year",
       description: [
         "Write your job description here",
         "Write your job description here",
