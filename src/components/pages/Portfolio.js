@@ -1,7 +1,7 @@
 import React from "react";
 import SIdeBar from "../SideBar";
 import "../../style/index.css";
-import Cards from "../Cards";
+import Cards from "../PortfolioCards";
 
 const Portfolio = () => {
   return (
@@ -13,7 +13,7 @@ const Portfolio = () => {
 
         <div className="col-md-8 text-white" style={{ fontSize: "1.5rem" }}>
           <div className="row">
-            <span className="text-center my-4">Portfolio</span>
+            <span className="text-center my-4 text-decoration-underline">Portfolio</span>
           </div>
           <div className="row text-center mx-auto">
             <Cards />

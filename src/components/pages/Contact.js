@@ -74,7 +74,9 @@ const Contact = () => {
             style={{ fontSize: "1.5rem" }}
           >
             <form onSubmit={handleSubmit} className="mt-3">
+              <span className="text-decoration-underline">
               Contact Us
+              </span>
               <div className="row mt-4 px-5">
                 <input
                   type="text"
