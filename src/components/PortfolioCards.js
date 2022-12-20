@@ -5,17 +5,15 @@ import '../style/index.css'
 const Cards = () => {
   return (
     <div className="col-md-4">
-      <div className="col-md-6 mx-auto border rounded mt-3 img-card">
-        <img src={PortfolioImg} alt="portoflio number 1" className="img-fluid" />
-        Project Name
+      <div className="col-md-9 col-12 mx-auto border mt-3">
+        <img src={PortfolioImg} alt="portoflio number 1" className="img-fluid img-card" />
+        <hr/>
+        <p>Project Name</p>
       </div>
-      <div className="col-md-6 mx-auto border rounded mt-5">
-        <img src={PortfolioImg} alt="portoflio number 1" className="img-fluid" />
-        Project Name
-      </div>
-      <div className="col-md-6 mx-auto border rounded mt-5">
-        <img src={PortfolioImg} alt="portoflio number 1" className="img-fluid" />
-        Project Name
+      <div className="col-md-9 col-12 mx-auto border mt-5">
+        <img src={PortfolioImg} alt="portoflio number 1" className="img-fluid img-card" />
+        <hr/>
+        <p>Project Name</p>
       </div>
     </div>
   );

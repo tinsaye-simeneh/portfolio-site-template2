@@ -130,7 +130,7 @@ const Contact = () => {
           <div className="col-md-3 col-8 bg-black text-center mx-auto">
             <div className="row">
               <div
-                className="col-12 col-md-12 text-center text-white mt-4 pt-2 ms-3"
+                className="col-12 col-md-12 text-center text-white mt-4 pt-2"
               >
                 <h4 className="text-decoration-underline">
                 My Social Links

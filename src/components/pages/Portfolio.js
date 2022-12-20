@@ -5,9 +5,9 @@ import Cards from "../PortfolioCards";
 
 const Portfolio = () => {
   return (
-    <div className="container-fluid pt-5 bg-black Page-Container Portfolio-Page-Container">
+    <div className="container-fluid bg-black Page-Container Portfolio-Page-Container">
       <div className="row py-2">
-        <div className="col-md-3 col-11 mx-auto mt-2">
+        <div className="col-md-3 col-11 mx-auto mt-5">
           <SIdeBar Portfolio='active'/>
         </div>
 
