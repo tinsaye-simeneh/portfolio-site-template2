@@ -4,13 +4,15 @@ import Home from "./components/pages/Home";
 import Contact from "./components/pages/Contact";
 import Portfolio from "./components/pages/Portfolio";
 import Resume from './components/pages/Resume'
+import Footer from "./components/Footer";
+
 import "bootstrap/dist/css/bootstrap.min.css";
 import { Routes, Route, BrowserRouter } from "react-router-dom";
 
 function App() {
   return (
     <>
-  <div className="pb-5 bg-black pt-1">   
+  <div className="pb-4 bg-black pt-1 text-center">   
       <BrowserRouter>
       <Routes>
           <Route path="Home" element={<Home />} />
@@ -20,6 +22,11 @@ function App() {
           <Route path="*" element={<Home />} />
       </Routes>
     </BrowserRouter>
+    <span className="text-white">Designed and Developed by
+            <a href="https://github.com/tinsaye-simeneh" alt="Tinsaye's Github link" className="text-center ps-2 text-white">
+              Tinsaye Simeneh
+            </a>
+            </span>
     </div>
     </>
   );
