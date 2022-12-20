@@ -49,7 +49,7 @@ const Contact = () => {
   const SocialLinks = Social.map((icon, index) => {
     return (
       <div className="col-md-12 col-12 mx-auto">
-        <div className="row">
+        <div className="row border rounded my-1">
         <div className="col-md-8 col-12 my-2 mx-auto">
         <span className="px-4">{icon.icon}</span>
       <a href={icon.link} className="text-white text-decoration-none">
@@ -128,9 +128,11 @@ const Contact = () => {
           <div className="col-md-3 col-8 bg-black text-center mx-auto">
             <div className="row">
               <div
-                className="col-12 col-md-12 text-center text-white mt-5 ms-3"
+                className="col-12 col-md-12 text-center text-white mt-4 pt-2 ms-3"
               >
+                <h4 className="text-decoration-underline">
                 My Social Links
+                </h4>
               </div>
             </div>
             <div className="row mt-4">{SocialLinks}
