@@ -48,7 +48,7 @@ const Resume = () => {
         </div>
         <div className="col-md-8 text-white" style={{ fontSize: "1.5rem" }}>
           <div className="row">
-            <span className="text-center mb-3 text-decoration-underline pt-5">
+            <span className="text-center mb-3 text-decoration-underline header-text">
               Resume
             </span>
           </div>
@@ -57,7 +57,7 @@ const Resume = () => {
               Work Experience
              {WorkData}
             </div>
-            <div className="col-md-6 col-12 pt-5">
+            <div className="col-md-6 col-12 header-text">
               Education
               {EducationData}
              </div>
