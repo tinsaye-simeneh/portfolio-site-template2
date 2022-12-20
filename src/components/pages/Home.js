@@ -19,7 +19,7 @@ const Home = () => {
               Hi, I'm <span className="text-danger">Raul Josef</span>
             </h4>
             <h5 className="text-white mt-3">
-              Frontend Web Developer | UI/UX Designer
+              Your Job Title
             </h5>
             <h6 className="text-white mt-3">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis et
