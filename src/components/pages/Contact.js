@@ -12,27 +12,27 @@ const Social = [
   {
     icon: <AiFillGithub size={30}/>,
     link: "",
-    linkText: "Github",
+    linkText: "Raul Josef",
   },
   {
     icon: <AiFillLinkedin size={30}/>,
     link: "",
-    linkText: "LinkedIn",
+    linkText: "Raul Josef",
   },
   {
     icon: <AiFillTwitterCircle size={30}/>,
     link: "",
-    linkText: "Twitter",
+    linkText: "Raul Josef",
   },
   {
     icon: <AiFillInstagram size={30}/>,
     link: "",
-    linkText: "Instagram",
+    linkText: "Raul Josef",
   },
   {
     icon: <AiFillFacebook size={30}/>,
     link: "",
-    linkText: "Facebook",
+    linkText: "Raul Josef",
   },
 ];
 
@@ -48,9 +48,9 @@ const Contact = () => {
 
   const SocialLinks = Social.map((icon, index) => {
     return (
-      <div className="col-md-12 col-12 bg-primary mx-auto">
+      <div className="col-md-12 col-12 mx-auto">
         <div className="row bg-warning">
-        <div className="col-md-8 col-12 bg-danger my-2 text-left mx-auto">
+        <div className="col-md-8 col-12 my-2 mx-auto">
         <span className="px-4">{icon.icon}</span>
       <span href={icon.link} className="text-white d-inline">
        {icon.linkText}
