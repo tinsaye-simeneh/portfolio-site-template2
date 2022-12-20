@@ -1,11 +1,12 @@
 import React from "react";
 import "../../style/index.css";
 import SIdeBar from "../SideBar";
-import fb from "../../assets/icons/fb.svg";
-import ig from "../../assets/icons/ig.svg";
-import tw from "../../assets/icons/tw.svg";
-import li from "../../assets/icons/li.svg";
-import gh from "../../assets/icons/gh.svg";
+
+import {AiFillGithub} from 'react-icons/ai';
+import {AiFillLinkedin} from 'react-icons/ai';
+import {AiFillTwitterCircle} from 'react-icons/ai';
+import {AiFillInstagram} from 'react-icons/ai';
+import {AiFillFacebook} from 'react-icons/ai';
 
 
 const Contact = () => {
@@ -18,17 +19,17 @@ const Contact = () => {
 
   return (
     <>
-      <div className="container-fluid bg-black py-5">
+      <div className="container-fluid bg-black py-5 Page-Container">
         <div className="row py-5 mx-auto bg-black w-100">
-          <div className="col-3 pt-3 ">
+          <div className="col-md-3 col-12 pt-3 ">
             <SIdeBar Contact='active'/>
           </div>
           
           <div
-            className="col-4 text-white text-center mt-2"
+            className="col-md-4 col-12 text-white text-center mt-2"
             style={{ fontSize: "1.5rem" }}
           >
-            <form onSubmit={handleSubmit}>
+            <form onSubmit={handleSubmit} className="mt-3">
             Contact Us
             <div className="row mt-4 px-5">
               <input
@@ -62,44 +63,44 @@ const Contact = () => {
             </div>
             </form>
           </div>
-          <div className="col-3 bg-black ms-5 ps-5">
-            <div className="row">
+          <div className="col-md-3 col-8 bg-black text-center mx-auto">
+            <div className="row ">
               <div
-                className="col-12 text-center text-white mt-2 ms-3"
+                className="col-12 text-center text-white mt-5"
                 style={{ fontSize: "1.5rem" }}
               >
                 My Social Links
               </div>
             </div>
             <div className="row mt-4 pt-3">
-              <div className="col-6 mx-auto">
+              <div className="col-md-6 col-12 mx-auto">
                 <div className="row">
                   <div className="col-md-6">
-                    <img src={gh} alt="github" className="pb-4" />
+                    <AiFillGithub/>
                   </div>
                   <div className="col-md-6 pt-3 text-white">@RaulJosef</div>
                 </div>
                 <div className="row">
                   <div className="col-md-6">
-                    <img src={li} alt="linkedin" className="pb-4" />
+                    <AiFillLinkedin/>
                   </div>
                   <div className="col-md-6 pt-3 text-white">@RaulJosef</div>
                 </div>
                 <div className="row">
                   <div className="col-md-6">
-                    <img src={tw} alt="twitter" className="pb-4" />
+                    <AiFillTwitterCircle/>
                   </div>
                   <div className="col-md-6 pt-3 text-white">@RaulJosef</div>
                 </div>
                 <div className="row">
                   <div className="col-md-6">
-                    <img src={ig} alt="instagram" className="pb-4" />
+                    <AiFillInstagram/>
                   </div>
                   <div className="col-md-6 pt-3 text-white">@RaulJosef</div>
                 </div>
                 <div className="row">
                   <div className="col-md-6">
-                    <img src={fb} alt="facebook" className="pb-4" />
+                    <AiFillFacebook/>
                   </div>
                   <div className="col-md-6 pt-3 text-white">@RaulJosef</div>
                 </div>
