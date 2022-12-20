@@ -5,7 +5,7 @@ import '../style/index.css'
 const Cards = () => {
   return (
     <div className="col-md-4">
-      <div className="col-md-9 col-12 mx-auto border mt-3">
+      <div className="col-md-9 col-12 mx-auto border mt-1">
         <img src={PortfolioImg} alt="portoflio number 1" className="img-fluid img-card" />
         <hr/>
         <p>Project Name</p>

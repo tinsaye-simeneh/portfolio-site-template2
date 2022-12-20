@@ -43,9 +43,9 @@ const Resume = () => {
 
 
   return (
-    <div className="container-fluid pb-5 pt-3 bg-black Page-Container">
+    <div className="container-fluid pb-5 bg-black Page-Container">
       <div className="row py-2">
-        <div className="col-md-3 col-11 mx-auto mt-2">
+        <div className="col-md-3 col-11 mx-auto pt-5">
           <SIdeBar Resume="active"/>
         </div>
         <div className="col-md-8 text-white" style={{ fontSize: "1.5rem" }}>

@@ -53,8 +53,14 @@ textarea {
 .img-col:hover{
   filter: brightness(50%);
 }
+.Page-Container {
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  max-height: 37.95rem;
+}
 .Home-Page-Container {
-  max-height: 38.2rem;
+  max-height: 37.95rem;
 }
 .Contact-Icon{
   width: 3rem;
