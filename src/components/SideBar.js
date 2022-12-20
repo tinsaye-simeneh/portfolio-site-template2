@@ -19,28 +19,28 @@ const SIdeBar = ({Home, Resume, Portfolio, Contact}) => {
         </div>
         <div className="col-md-3 col-3 sidebar-item mx-auto bg-orange py-3 pt-5 text-center">
           <Link to="/Home">
-           <AiFillHome/>
+           <AiFillHome size={30}/>
           </Link>
         </div>
       </div>
       <div className="row">
         <div className="col-md-3 col-3 sidebar-item mx-auto bg-orange py-4 text-center ">
           <Link to="/Resume">
-            <AiFillFilePdf/>
+            <AiFillFilePdf size={30}/>
           </Link>
         </div>
       </div>
       <div className="row">
         <div className="col-md-3 col-3 sidebar-item mx-auto bg-orange py-4 text-center">
           <Link to="/Portfolio">
-           <GiGiftOfKnowledge/>
+           <GiGiftOfKnowledge size={30}/>
           </Link>
         </div>
       </div>
       <div className="row">
         <div className="col-md-3 col-3 sidebar-item mx-auto bg-orange pt-3 pb-5 text-center">
           <Link to="/Contact">
-           <MdContactPage/>
+           <MdContactPage size={30}/>
           </Link>
         </div>
       </div>
