@@ -63,9 +63,9 @@ const Contact = () => {
 
   return (
     <>
-      <div className="container-fluid bg-black Page-Container">
-        <div className="row py-5 mx-auto bg-black w-100">
-          <div className="col-md-3 col-11 mx-auto">
+      <div className="container-fluid pt-2 bg-black Page-Container">
+        <div className="row pt-5 bg-black">
+          <div className="col-md-3 col-11 mx-auto mt-2">
             <SIdeBar Contact="active" />
           </div>
 
