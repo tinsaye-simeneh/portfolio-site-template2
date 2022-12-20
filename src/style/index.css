@@ -21,7 +21,7 @@
   padding: 8px;
   color: black;
 }
-.Icons.active {
+.active {
   overflow:hidden;
   padding:8px;
   color: white;
@@ -57,12 +57,17 @@ textarea {
 }
 
 @media (max-width: 768px) {
-  .Home-Page-Container {
+  .Page-Container {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
     height: 100%;
     width: 100%;
+  }
+  .Portfolio-Page-Container {
+    max-height: 400vh;
+  }
+  .Home-Page-Container {
     max-height: 180vh;
   }
   .img-col {
