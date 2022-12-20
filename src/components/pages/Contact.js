@@ -10,27 +10,27 @@ import { AiFillFacebook } from "react-icons/ai";
 
 const Social = [
   {
-    icon: <AiFillGithub size={30}/>,
+    icon: <AiFillGithub size={30} className="Contact-Icon"/>,
     link: "",
     linkText: "Raul Josef",
   },
   {
-    icon: <AiFillLinkedin size={30}/>,
+    icon: <AiFillLinkedin size={30} className="Contact-Icon"/>,
     link: "",
     linkText: "Raul Josef",
   },
   {
-    icon: <AiFillTwitterCircle size={30}/>,
+    icon: <AiFillTwitterCircle size={30} className="Contact-Icon"/>,
     link: "",
     linkText: "Raul Josef",
   },
   {
-    icon: <AiFillInstagram size={30}/>,
+    icon: <AiFillInstagram size={30} className="Contact-Icon"/>,
     link: "",
     linkText: "Raul Josef",
   },
   {
-    icon: <AiFillFacebook size={30}/>,
+    icon: <AiFillFacebook size={30} className="Contact-Icon"/>,
     link: "",
     linkText: "Raul Josef",
   },
@@ -49,7 +49,7 @@ const Contact = () => {
   const SocialLinks = Social.map((icon, index) => {
     return (
       <div className="col-md-12 col-12 mx-auto">
-        <div className="row bg-warning">
+        <div className="row">
         <div className="col-md-8 col-12 my-2 mx-auto">
         <span className="px-4">{icon.icon}</span>
       <span href={icon.link} className="text-white d-inline">
