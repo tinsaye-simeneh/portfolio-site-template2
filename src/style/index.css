@@ -58,11 +58,14 @@ textarea {
 .Contact-Icon{
   width: 3rem;
   height: 3rem;
-  padding: 8px;
+  padding: 3px;
   color: white;
 }
 .Contact-Icon:hover{
   filter: brightness(50%);
+}
+.Social-link-text:hover{
+  color: #ff8800;
 }
 
 @media (max-width: 768px) {

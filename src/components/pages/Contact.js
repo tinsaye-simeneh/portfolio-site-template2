@@ -52,9 +52,9 @@ const Contact = () => {
         <div className="row">
         <div className="col-md-8 col-12 my-2 mx-auto">
         <span className="px-4">{icon.icon}</span>
-      <span href={icon.link} className="text-white d-inline">
+      <a href={icon.link} className="Social-link-text text-white text-decoration-none">
        {icon.linkText}
-      </span>
+      </a>
       </ div>
       </div>
      </div>
@@ -128,12 +128,12 @@ const Contact = () => {
           <div className="col-md-3 col-8 bg-black text-center mx-auto">
             <div className="row">
               <div
-                className="col-12 col-md-12 text-center text-white mt-5"
+                className="col-12 col-md-12 text-center text-white mt-5 ms-3"
               >
                 My Social Links
               </div>
             </div>
-            <div className="row mt-4 pt-3">{SocialLinks}
+            <div className="row mt-4">{SocialLinks}
             </div>
           </div>
         </div>
