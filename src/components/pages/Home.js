@@ -6,19 +6,17 @@ import SideBar from "../SideBar";
 const Home = () => {
   return (
     <>
-      <div
-        className="container-fluid py-5 Home-Page-Container"
-      >
+      <div className="container-fluid py-5 Home-Page-Container">
         <div className="row py-5 mx-auto bg-black w-100">
           <div className="col-md-3 col-10 mx-auto pt-3">
-            <SideBar Home="active"/>
+            <SideBar Home="active" />
           </div>
           <div className="col-md-3 col-12 img-col border-none rounded">
             <img src={Profile} alt="random" className="img-fluid" />
           </div>
           <div className="col-md-5 col-12 bg-black pt-5 mt-5">
             <h4 className="text-white mt-3">
-              Hi, I'm  <span className="text-danger">Raul Josef</span>
+              Hi, I'm <span className="text-danger">Raul Josef</span>
             </h4>
             <h5 className="text-white mt-3">
               Frontend Web Developer | UI/UX Designer

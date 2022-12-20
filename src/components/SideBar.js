@@ -23,25 +23,25 @@ const SIdeBar = ({ Home, Resume, Portfolio, Contact }) => {
           <div className="row">
             <div className="col-md-12 col-3 mx-auto bg-orange py-4 text-center">
               <Link to="/Home">
-                <AiFillHome size={30} className="Icons"/>
+                <AiFillHome size={30} className="Icons" class={Home}/>
               </Link>
             </div>
             
             <div className="col-md-12 col-3 mx-auto bg-orange py-4 text-center">
               <Link to="/Resume">
-                <AiFillFilePdf size={30} className="Icons"/>
+                <AiFillFilePdf size={30} className="Icons" class={Resume}/>
               </Link>
             </div>
 
             <div className="col-md-12 col-3 mx-auto bg-orange py-4 text-center">
               <Link to="/Portfolio">
-                <GiGiftOfKnowledge size={30} className="Icons"/>
+                <GiGiftOfKnowledge size={30} className="Icons" class={Portfolio}/>
               </Link>
             </div>
 
             <div className="col-md-12 col-3 mx-auto bg-orange py-4 text-center">
               <Link to="/Contact">
-                <MdContactPage size={30} className="Icons"/>
+                <MdContactPage size={30} className="Icons" class={Contact}/>
               </Link>
             </div>
 
