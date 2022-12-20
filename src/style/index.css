@@ -49,3 +49,16 @@ textarea {
   margin-left: auto;
   margin-right: auto;
 }
+
+@media and screen and (max-width: 768px) {
+  .container-fluid {
+    height: 100%;
+  }
+  .img-col {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}

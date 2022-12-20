@@ -13,7 +13,7 @@ const SIdeBar = ({Home, Resume, Portfolio, Contact}) => {
         >
           RJ
         </div>
-        <div className="col-3 mx-auto bg-orange py-3 pt-5 text-center">
+        <div className="col-md-3 col-12 mx-auto bg-orange py-3 pt-5 text-center">
           <Link to="/Home">
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -30,7 +30,7 @@ const SIdeBar = ({Home, Resume, Portfolio, Contact}) => {
         </div>
       </div>
       <div className="row">
-        <div className="col-3 mx-auto bg-orange py-4 text-center ">
+        <div className="col-md-3 col-12 mx-auto bg-orange py-4 text-center ">
           <Link to="/Resume">
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -47,7 +47,7 @@ const SIdeBar = ({Home, Resume, Portfolio, Contact}) => {
         </div>
       </div>
       <div className="row">
-        <div className="col-3 mx-auto bg-orange py-4 text-center">
+        <div className="col-md-3 col-12 mx-auto bg-orange py-4 text-center">
           <Link to="/Portfolio">
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -65,7 +65,7 @@ const SIdeBar = ({Home, Resume, Portfolio, Contact}) => {
         </div>
       </div>
       <div className="row">
-        <div className="col-3 mx-auto bg-orange pt-3 pb-5 text-center">
+        <div className="col-md-3 col-12 mx-auto bg-orange pt-3 pb-5 text-center">
           <Link to="/Contact">
             <svg
               xmlns="http://www.w3.org/2000/svg"

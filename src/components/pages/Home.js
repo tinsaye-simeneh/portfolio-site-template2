@@ -11,7 +11,7 @@ const Home = () => {
         style={{ height: "38.2rem" }}
       >
         <div className="row py-5 mx-auto bg-black w-100">
-          <div className="col-md-3 col-3 pt-3">
+          <div className="col-md-3 col-12 pt-3">
             <SideBar Home="active"/>
           </div>
           <div className="col-md-3 col-12 img-col border-none rounded">
