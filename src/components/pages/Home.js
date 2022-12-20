@@ -7,11 +7,10 @@ const Home = () => {
   return (
     <>
       <div
-        className="container-fluid bg-black py-5"
-        style={{ height: "38.2rem" }}
+        className="container-fluid py-5 Home-Page-Container"
       >
         <div className="row py-5 mx-auto bg-black w-100">
-          <div className="col-md-3 col-12 pt-3">
+          <div className="col-md-3 col-10 mx-auto pt-3">
             <SideBar Home="active"/>
           </div>
           <div className="col-md-3 col-12 img-col border-none rounded">
