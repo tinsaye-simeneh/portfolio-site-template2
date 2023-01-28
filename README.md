@@ -1,1 +1,1 @@
-A simple personal Portfolio site
+A simple Portfolio site template 
